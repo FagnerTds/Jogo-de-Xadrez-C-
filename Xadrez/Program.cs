@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Threading.Channels;
-using Tabuleiro;
+using tabuleiro;
 
 namespace Xadrez {
     internal class Program {
         static void Main(string[] args) {
 
-            Posicao p = new Posicao(1, 2);
+            Tabuleiro tab = new Tabuleiro(8, 8);
 
-            Console.WriteLine(p);
+            Console.WriteLine(tab);
         }
         
     }
